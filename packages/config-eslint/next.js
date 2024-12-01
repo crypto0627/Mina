@@ -39,9 +39,9 @@ module.exports = {
       }
     }
   },
-  ignorePatterns: ['node_modules/', 'dist/'],
+  ignorePatterns: ['node_modules/', 'dist/', 'src/'],
   // add rules configurations here
   rules: {
-    'import/no-default-export': 'off'
+    'import/no-default-export': 'off',
   }
 }
