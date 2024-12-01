@@ -6,7 +6,7 @@
     "lint": "turbo lint",
     "type-check": "turbo type-check",
     "clean": "turbo clean",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md,json,js,jsx}\""
   },
   "devDependencies": {
     "prettier": "^3.2.5",

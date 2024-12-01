@@ -1,8 +1,15 @@
 {
   "extends": "@repo/typescript-config/express.json",
   "compilerOptions": {
-   "plugins": [{ "name": "express" }]
+    "plugins": [{ "name": "express" }],
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "target": "es6",
+    "module": "commonjs"
   },
   "include": ["src/**/*.ts"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "dist"]
 }
